@@ -121,7 +121,7 @@ function loadCartItems() {
             <img src="${item.image}" alt="${item.name}">
             <div class="cart-item-details">
                 <h4>${item.name}</h4>
-                <div class="cart-item-price">$${item.price}</div>
+                <div class="cart-item-price">LKR ${item.price}</div>
                 <div class="quantity-controls">
                     <button onclick="updateQuantity(${item.id}, ${item.quantity - 1})">-</button>
                     <span>Qty: ${item.quantity}</span>
@@ -135,7 +135,7 @@ function loadCartItems() {
     // Calculate and display total
     const total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
     document.getElementById('cart-total').innerHTML = `
-        <h3>Total: $${total.toFixed(2)}</h3>
+        <h3>Total: LKR ${total.toFixed(2)}</h3>
         <button class="btn btn-primary" onclick="checkout()">Proceed to Checkout</button>
     `;
 }
