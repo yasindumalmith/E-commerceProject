@@ -7,7 +7,7 @@ require_once 'config/database.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping Cart - E-Store</title>
+    <title>Shopping Cart - MarketPlace</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -15,7 +15,7 @@ require_once 'config/database.php';
         <nav class="navbar">
             <div class="nav-container">
                 <div class="nav-logo">
-                    <h2>E-Store</h2>
+                    <h2>MarketPlace</h2>
                 </div>
                 <ul class="nav-menu">
                     <li><a href="index.html">Home</a></li>
@@ -53,7 +53,7 @@ require_once 'config/database.php';
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 E-Store. All rights reserved.</p>
+            <p>&copy; 2024 MarketPlace. All rights reserved.</p>
         </div>
     </footer>
 

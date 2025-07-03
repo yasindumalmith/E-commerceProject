@@ -37,7 +37,7 @@ $products = $stmt->fetchAll();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products - E-Store</title>
+    <title>Products - MarketPlace</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -45,7 +45,7 @@ $products = $stmt->fetchAll();
         <nav class="navbar">
             <div class="nav-container">
                 <div class="nav-logo">
-                    <h2>E-Store</h2>
+                    <h2>MarketPlace</h2>
                 </div>
                 <ul class="nav-menu">
                     <li><a href="index.html">Home</a></li>
@@ -123,7 +123,7 @@ $products = $stmt->fetchAll();
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 E-Store. All rights reserved.</p>
+            <p>&copy; 2024 MarketPlace. All rights reserved.</p>
         </div>
     </footer>
 
