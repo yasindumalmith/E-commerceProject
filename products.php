@@ -96,7 +96,7 @@ $products = $stmt->fetchAll();
                              alt="<?php echo htmlspecialchars($product['name']); ?>">
                         <h3><?php echo htmlspecialchars($product['name']); ?></h3>
                         <p><?php echo htmlspecialchars($product['description']); ?></p>
-                        <div class="product-price">$<?php echo number_format($product['price'], 2); ?></div>
+                        <div class="product-price">LKR <?php echo number_format($product['price'], 2); ?></div>
                         <p>Stock: <?php echo $product['stock_quantity']; ?></p>
                         <p>Category: <?php echo htmlspecialchars($product['category_name']); ?></p>
                         

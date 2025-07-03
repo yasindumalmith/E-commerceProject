@@ -97,7 +97,7 @@ function loadFeaturedProducts() {
             <img src="${product.image}" alt="${product.name}" onerror="this.onerror=null;this.src='placeholder.svg?height=200&width=200';">
             <h3>${product.name}</h3>
             <p>${product.description}</p>
-            <div class="product-price">$${product.price}</div>
+            <div class="product-price">LKR ${product.price}</div>
             <button class="btn btn-success" onclick="addToCart(${product.id}, '${product.name}', ${product.price}, '${product.image}')">
                 Add to Cart
             </button>
