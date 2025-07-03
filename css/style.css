@@ -89,7 +89,7 @@ main {
 }
 
 .hero {
-    background-image: url('/assets/home-bg.jpg');
+    background-image: url('../assets/home-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
