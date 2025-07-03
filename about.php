@@ -1,4 +1,18 @@
-<?php include 'includes/header.php'; ?>
+<?php
+// Optionally start session or include any PHP logic here
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | MarketPlace</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
 
 <section class="about-hero">
     <div class="hero-overlay"></div>
@@ -55,7 +69,7 @@
                 <!-- Team Member 1 -->
                 <div class="team-member">
                     <div class="member-image">
-                        <img src="assets/images/team/deshitha.jpg" alt="Deshitha">
+                        <img src="assets/images/deshitha.jpg" alt="Deshitha">
                         <div class="social-links">
                             <a href="https://www.linkedin.com/in/deshitha-rathnayake" target="_blank"><i class="fab fa-linkedin"></i></a>
                             <a href="https://github.com/deshitha-s" target="_blank"><i class="fab fa-github"></i></a>
@@ -148,4 +162,8 @@
     </div>
 </section>
 
-<?php include 'includes/footer.php'; ?>
+<?php include 'footer.php'; ?>
+<!-- JS scripts -->
+<script src="../js/script.js"></script>
+</body>
+</html>
