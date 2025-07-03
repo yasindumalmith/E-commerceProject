@@ -73,28 +73,28 @@ function loadFeaturedProducts() {
             id: 1,
             name: 'Smartphone',
             price: 299.99,
-            image: '/placeholder.svg?height=200&width=200',
+            image: 'assets/smartphone.jpg',
             description: 'Latest Android smartphone'
         },
         {
             id: 2,
             name: 'Laptop',
             price: 899.99,
-            image: '/placeholder.svg?height=200&width=200',
+            image: 'assets/laptop.jpg',
             description: 'High-performance laptop'
         },
         {
             id: 3,
             name: 'T-Shirt',
             price: 19.99,
-            image: '/placeholder.svg?height=200&width=200',
+            image: 'assets/tshirt.png', // fixed typo: was .pngs
             description: 'Comfortable cotton t-shirt'
         }
     ];
     
     featuredContainer.innerHTML = sampleProducts.map(product => `
         <div class="product-card">
-            <img src="${product.image}" alt="${product.name}">
+            <img src="${product.image}" alt="${product.name}" onerror="this.onerror=null;this.src='placeholder.svg?height=200&width=200';">
             <h3>${product.name}</h3>
             <p>${product.description}</p>
             <div class="product-price">$${product.price}</div>
