@@ -1,38 +1,54 @@
-<html>
-    <head>
-        <title>E-commerce</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="navbar-container">
-            <nav class="navbar">
-                <div class="navbar-menu">
-                    <a href="#about">About</a>
-                    <a href="#shop">Service</a>
-                    <a href="#cart">Cart</a>
-                    <a href="#category">Category</a>
-                    <a href="#contact">Contact Us</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2 class="logo-letter">MarketPlace</h2>
                 </div>
-                <div class="navbar-action">
-                    
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.php">Products</a></li>
+                    <li><a href="cart.php">Cart (<span id="cart-count">0</span>)</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </div>
+        </nav> 
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to E-Store</h1>
+                <p>Find the best products at amazing prices</p>
+                <a href="products.php" class="btn btn-primary">Shop Now</a>
+            </div>
+        </section>
+
+        <section class="featured-products">
+            <div class="container">
+                <h2>Featured Products</h2>
+                <div class="products-grid" id="featured-products">
+                    <!-- Products will be loaded here -->
                 </div>
-            </nav>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 E-Store. All rights reserved.</p>
         </div>
-        <section id="home" class="section">
-            <h2>Home</h2>
-            <p>Welcome to E-Shop! Discover the best deals and latest arrivals in our online store.</p>
-        </section>
-        <section id="shop" class="section">
-            <h2>Shop</h2>
-            <p>Browse our wide selection of products. Enjoy exclusive offers and fast delivery.</p>
-        </section>
-        <section id="about" class="section">
-            <h2>About</h2>
-            <p>Learn more about E-Shop, our mission, and our commitment to quality and customer satisfaction.</p>
-        </section>
-        <section id="contact" class="section">
-            <h2>Contact</h2>
-            <p>Have questions? Reach out to our support team for assistance or feedback.</p>
-        </section>
-    </body>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
 </html>
