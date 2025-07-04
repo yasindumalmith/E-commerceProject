@@ -54,6 +54,10 @@
             </div>
         </div>
         <script src="assets/js/script.js"></script>
+        <script>
+            // Update the copyright year dynamically
+            document.getElementById('copyright-year').textContent = new Date().getFullYear();  
+        </script> 
     </footer>
 </body>
 </html>
